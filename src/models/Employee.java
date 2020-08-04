@@ -61,6 +61,7 @@ public class Employee {
     public Integer getId() {
         return id;
     }
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -88,6 +89,7 @@ public class Employee {
     public void setPassword(String password) {
         this.password = password;
     }
+
     public Integer getAdmin_flag() {
         return admin_flag;
     }
