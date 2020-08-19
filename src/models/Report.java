@@ -61,8 +61,8 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
-    @Column(name = "like", nullable = false)
-    private Integer like;
+    @Column(name = "favorite", nullable = false)
+    private Integer favorite;
 
 
 
@@ -123,12 +123,12 @@ public class Report {
         this.updated_at = updated_at;
     }
 
-    public Integer getLike() {
-        return like;
+    public Integer getFavorite() {
+        return favorite;
     }
 
-    public void setLike(Integer like) {
-        this.like = like;
+    public void setFavorite(Integer favorite) {
+        this.favorite = favorite;
     }
 
 
