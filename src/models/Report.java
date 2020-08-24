@@ -61,9 +61,8 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
-    @Column(name = "favorite", nullable = false)
+    @Column(name = "favorite", nullable = true)
     private Integer favorite;
-
 
 
 
